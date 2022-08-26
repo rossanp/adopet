@@ -1,0 +1,18 @@
+header {
+    padding: 3em;
+    width: 50%;
+}
+
+.forma01 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+}
+
+.header__icons {
+    height: 20px;
+    width: 20px;
+    margin-right: 3em;
+    position: relative;
+}
