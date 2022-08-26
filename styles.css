@@ -1,4 +1,5 @@
 @import url(./styles/page-home/header.css);
+@import url(./styles/page-home/footer.css);
 
 :root {
     --azul: #3772FF;
@@ -6,11 +7,12 @@
     --coral: #FC7071;
     --cinza: #737380;
     --cinza-claro: #BCBCBC;
-    --text: 'Poppins';
+    --verde: #36D6AD;
     --text-imb: 'IBM Plex Sans';
 }
 
 body {
     background: var(--azul);
     font-size: 16px;
+    font-family: "Poppins";
 }

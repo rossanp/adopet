@@ -1,0 +1,9 @@
+footer {
+    padding: 41px 52px 39px 65px;
+    background-color: var(--verde);
+    bottom: 0;
+}
+.footer {
+    color: var(--branco);
+    font-weight: 400;
+}
