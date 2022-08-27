@@ -6,8 +6,9 @@ header {
 .forma01 {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 95%;
+    left: -30px;
+    width: 100%;
+    height: 274px;
 }
 
 .header__icons {
