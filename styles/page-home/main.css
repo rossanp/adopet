@@ -40,7 +40,7 @@ section {
 .conteudo__btn {
     color: var(--branco);
     background-color: var(--coral);
-    margin: 24px 0 16px 0;
+    margin: 0 0 16px 0;
     font-family: var(--text);
     font-weight: 600;
     font-size: 1em;
@@ -53,4 +53,16 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.btn-1 {
+    margin: 24px 0 16px 0;
+}
+
+.forma02 {
+    position: absolute;
+    width: 84.03px;
+    height: 415px;
+    right: 0;
+    top: 199px;
 }
