@@ -1,0 +1,20 @@
+@import url(./styles/page-home/header.css);
+@import url(./styles/page-home/footer.css);
+@import url(./styles/page-home/main.css);
+
+:root {
+    --azul: #3772FF;
+    --branco: #FFFFFF;
+    --coral: #FC7071;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --verde: #36D6AD;
+    --text: 'Poppins'
+    --text-imb: 'IBM Plex Sans';
+}
+
+body {
+    background: var(--azul);
+    font-size: 16px;
+    font-family: "Poppins";
+}
