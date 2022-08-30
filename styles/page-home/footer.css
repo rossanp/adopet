@@ -1,7 +1,8 @@
 footer {
     padding: 41px 52px 39px 65px;
     background-color: var(--verde);
-    bottom: 0;
+    position: absolute;
+    top: 813px;
 }
 .footer {
     color: var(--branco);
