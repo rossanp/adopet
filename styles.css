@@ -1,6 +1,6 @@
-@import url(./styles/page-home/header.css);
-@import url(./styles/page-home/footer.css);
-@import url(./styles/page-home/main.css);
+@import url(./styles/geral/header.css);
+@import url(./styles/geral/buttons.css);
+@import url(./styles/geral/footer.css);
 
 :root {
     --azul: #3772FF;
@@ -14,7 +14,7 @@
 }
 
 body {
-    background: var(--azul);
+    background: var(--branco);
     font-size: 16px;
     font-family: "Poppins";
 }
