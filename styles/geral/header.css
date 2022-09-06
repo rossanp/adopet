@@ -13,3 +13,9 @@ header {
     margin-right: 3em;
     position: relative;
 }
+
+.header__img-patas {
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
