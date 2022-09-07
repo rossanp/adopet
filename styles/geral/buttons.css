@@ -1,5 +1,8 @@
-.conteudo a {
+a {
     text-decoration: none;
+}
+
+.conteudo a {
     display: flex;
     justify-content: center;
 }
