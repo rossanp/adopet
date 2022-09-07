@@ -7,10 +7,13 @@
     --branco: #FFFFFF;
     --coral: #FC7071;
     --cinza: #737380;
+    --cinza-ecuro: #999999;
     --cinza-claro: #BCBCBC;
     --verde: #36D6AD;
     --text: 'Poppins'
     --text-imb: 'IBM Plex Sans';
+    --cinza-inpt: #f7f7f7;
+    --sombra-inpt: 0px 2px 2px rgba(0, 0, 0, 0.15);
 }
 
 body {

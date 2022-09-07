@@ -1,0 +1,77 @@
+form {
+    margin-top: 42px;
+}
+
+form div {
+    display: grid;
+    justify-items: center;
+}
+
+.form__label, .form__inpt {
+    z-index: 1;
+}
+
+.form__label {
+    font-family: var(--text);
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 24px;
+    color: var(--cinza);
+    margin: 0 auto;
+}
+
+.form__inpt {
+    width: 312px;
+    height: 40px;
+    margin-top: 4px;
+
+    background-color: var(--cinza-inpt);
+    box-shadow: var(--sombra-inpt);
+    border-radius: 6px;
+    border: none;
+}
+
+.form__inpt-mb {
+    margin-bottom:  24px;
+}
+
+.form__inpt::placeholder {
+    font-family: var(--text);
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 16px;
+    color: var(--cinza-claro);
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+span {
+    position: absolute;
+    right: 34px;
+    margin-top: 42px;
+    z-index: 1;
+}
+
+.form__esqueci-senha {
+    font-family: var(--text);
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 24px;
+    color: var(--coral);
+    text-decoration: none;
+
+    margin-top: 8px;
+}
+
+.section__btn-a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.section__btn {
+    width: 148px;
+}

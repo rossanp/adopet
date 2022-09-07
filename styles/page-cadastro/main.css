@@ -1,0 +1,23 @@
+.conteudo__logo {
+    display: grid;
+    justify-content: center;
+    margin: 30px 0 24px 0;
+}
+
+.main__conteudo-texto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 56.54px;
+    font-family: var(--text);
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 21px;
+    color: var(--azul);
+}
+
+.forma02-invertida {
+    position: absolute;
+    top: 368px;
+}
