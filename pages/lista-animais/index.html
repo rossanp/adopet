@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../../styles.css">
     <link rel="stylesheet" href="../../styles/geral/buttons.css">
     <link rel="stylesheet" href="../../styles/page-lista-animais/header.css">
+    <link rel="stylesheet" href="../../styles/page-lista-animais/main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,18 +33,33 @@
 
     <section>
         <div class="conteudo">
-            <div class="conteudo__logo">
-                <img src="../../img/Logo-blue.svg" alt="Logo Adopet azul">
-            </div>
-            <p class="main__conteudo-texto">Ainda não tem cadastro?<br>
-                Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+            <p class="main__conteudo-texto">Olá! Veja os amigos disponíveis para adoção!</p>
+            
+            <section class="main__cards">
+                <div class="main__card">
+                    <img src="../../img/Dunga.svg" alt="Imagem do cão Dunga" class="main__img-animal">
+                    <div class="main__card-dados">
+                        <h2>Dunga</h2>
+                        <p class="main__card-idade">2 anos</p>
+                        <p class="main__card-tamanho">Porte pequeno</p>
+                        <p class="main__card-jeito">Calmo e educado</p>
+                        <p class="main__card-local">Rio de Janeiro (RJ)</p>
+                        <div class="main__card-contato">
+                            <a href="#">
+                                <img src="../../img/icone-mensagem.svg" alt="Ícone de mensagem" class="main__card-icone-msgn">
+                                <p>Falar com responsável</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
         </div>
         
-    <img src="../../img/Forma-2-invertida.svg" alt="Forma 02 invertida" class="forma02-invertida">
     </section>
 
 
-    <footer>
+    <footer style="bottom: 0 !important; top:auto; position: relative;;">
         <p class="footer">2022 - Desenvolvido por Alura.</p>
     </footer>
 

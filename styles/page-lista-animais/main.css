@@ -1,0 +1,64 @@
+.main__conteudo-texto {
+    font-family: var(--text);
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 20px;
+    color: var(--azul);
+
+    margin: 30px 67px 32px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.main__card {
+    background-color: var(--cinza_inpt);
+    padding: 24px 0 24px 24px;
+    margin-bottom: 16px;
+
+    display: flex;
+}
+
+.main__img-animal {
+    margin-right: 16px;
+}
+
+.main__card-dados h2 {
+    font-family: var(--text);
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 20px;
+    color: var(--azul);
+
+    margin-bottom: 8px;
+}
+
+.main__card-idade, .main__card-tamanho, .main__card-jeito {
+    font-family: var(--text);
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 20px;
+    color: var(--cinza);
+}
+
+.main__card-local {
+    font-family: var(--text);
+    font-weight: 400;
+    font-size: 0.7em;
+    line-height: 16px;
+    color: var(--cinza);
+
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+.main__card-contato p {
+    font-family: var(--text);
+    font-weight: 400;
+    font-size: 0.6em;
+    line-height: 16px;
+    color: var(--cinza);
+
+    margin-left: 8px;
+}
