@@ -1,4 +1,4 @@
-let conteudo = document.getElementById('conteudo')
+let conteudo = document.getElementById('main__cards')
 
 let listaAnimais = [
     {
@@ -77,8 +77,25 @@ let listaAnimais = [
 
 let animais = ""
 
-nomesAnimais = listaAnimais.map( index => {
-    listaAnimais[index].nome
-} )
+for ( i = 0; i < listaAnimais.length; i++) {
+    animais += `<div class="main__card">`
+    animais += `<img src="${listaAnimais[i].img}" alt="Imagem do cão Dunga" class="main__img-animal">`
+    animais += `<div class="main__card-dados">`
+    animais += `<h2>${listaAnimais[i].nome}</h2>`
+    animais += `<p class="main__card-idade">${listaAnimais[i].idade}</p>`
+    animais += `<p class="main__card-tamanho">${listaAnimais[i].tamanho}</p>`
+    animais += `<p class="main__card-jeito">${listaAnimais[i].jeito}</p>`
+    animais += `<p class="main__card-local">${listaAnimais[i].cidade}</p>`
+    animais += `<div class="main__card-contato">`
+    animais += `<a href="#">`
+    animais += `<img src="../../img/icone-mensagem.svg" alt="Ícone de mensagem" class="main__card-icone-msgn">`
+    animais += `<p>Falar com responsável</p>`
+    animais += `</a>`
+    animais += `</div>`
+    animais += `</div>`
+    animais += `</div>`
+}
 
-console.log(nomesAnimais)
+conteudo.innerHTML = animais
+
+/* console.log(nomesAnimais) */

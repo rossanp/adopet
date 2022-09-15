@@ -14,7 +14,7 @@
 
 .main__card {
     background-color: var(--cinza_inpt);
-    padding: 24px 0 24px 24px;
+    padding: 24px 0 19px 24px;
     margin-bottom: 16px;
 
     display: flex;
