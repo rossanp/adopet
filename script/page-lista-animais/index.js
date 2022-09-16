@@ -87,7 +87,7 @@ for ( i = 0; i < listaAnimais.length; i++) {
     animais += `<p class="main__card-jeito">${listaAnimais[i].jeito}</p>`
     animais += `<p class="main__card-local">${listaAnimais[i].cidade}</p>`
     animais += `<div class="main__card-contato">`
-    animais += `<a href="#">`
+    animais += `<a href="../mensagem/index.html">`
     animais += `<img src="../../img/icone-mensagem.svg" alt="Ícone de mensagem" class="main__card-icone-msgn">`
     animais += `<p>Falar com responsável</p>`
     animais += `</a>`
