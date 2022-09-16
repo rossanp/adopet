@@ -1,0 +1,11 @@
+.main__conteudo-texto {
+    color: var(--azul);
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 20px;
+    margin: 36px 67px 0;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
