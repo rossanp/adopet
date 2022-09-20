@@ -24,4 +24,7 @@ header {
     position: absolute;
     right: 37px;
     top: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 50%;
 }
