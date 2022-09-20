@@ -25,8 +25,8 @@ form div {
     height: 40px;
     margin-top: 4px;
 
-    background-color: var(--cinza-inpt);
-    box-shadow: var(--sombra-inpt);
+    background-color: var(--cinza_inpt);
+    box-shadow: var(--sombra_inpt);
     border-radius: 6px;
     border: none;
 }
@@ -40,7 +40,7 @@ form div {
     font-weight: 400;
     font-size: 0.9em;
     line-height: 16px;
-    color: var(--cinza-claro);
+    color: var(--cinza_claro);
 
     display: flex;
     align-items: center;
