@@ -1,10 +1,16 @@
 footer {
-    padding: 41px 52px 39px 65px;
     background-color: var(--verde);
     position: absolute;
     top: 813px;
 }
+
 .footer {
     color: var(--branco);
     font-weight: 400;
+    width: 100vw;
+    height: 104px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
