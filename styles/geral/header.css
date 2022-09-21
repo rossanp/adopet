@@ -7,6 +7,9 @@ header {
     position: absolute;
     top: 0;
     left: 0;
+    background: url("../../img/Forma-1.svg") no-repeat;
+    width: 100%;
+    height: 100%;
 }
 
 .header__icons {
@@ -27,4 +30,25 @@ header {
     max-width: 40px;
     max-height: 40px;
     border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        width: none;
+        display: flex;
+    }
+    
+    .header__logo {
+        margin-right: 65px;
+        height: 31px;
+
+        display: block !important;
+        position: relative;
+    }
+
+    .forma01 {
+        background: url("../../img/Forma-1-768.svg") no-repeat;
+        width: 100%;
+        height: 100%;
+    }
 }
