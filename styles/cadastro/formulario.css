@@ -47,7 +47,7 @@ form div {
     text-align: center;
 }
 
-span {
+.span {
     position: absolute;
     right: 34px;
     margin-top: 42px;

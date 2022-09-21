@@ -55,7 +55,7 @@
                 <label for="senha" class="form__label">Senha</label>
                 <input type="password" name="senha" id="senha" class="form__inpt form__inpt-mb"
                     placeholder="Crie sua senha">
-                <span>
+                <span class="span">
                     <img src="../../img/Mostrar-senha.svg" alt="Botão para mostrar a senha" id="form__inpt-olho" class="form__inpt-olho">
                 </span>
             </div>
@@ -63,13 +63,26 @@
                 <label for="confirma-senha" class="form__label">Confirme sua senha</label>
                 <input type="password" name="confirma-senha" id="confirma-senha" class="form__inpt form__inpt-mb"
                     placeholder="Repita a senha criada acima">
+                    <span class="span">
+                        <img src="../../img/Mostrar-senha.svg" alt="Botão para mostrar a senha" id="form__inpt-conf-olho" class="form__inpt-olho">
+                    </span>
+                </div>
                 <span>
-                    <img src="../../img/Mostrar-senha.svg" alt="Botão para mostrar a senha" id="form__inpt-olho" class="form__inpt-olho">
+                    <p id="senha-incorreta" style="
+                            font-weight: 400;
+                            font-size: 0.8em;
+                            line-height: 16px;
+                            color: var(--coral);
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            position: relative;
+                        "
+                    ></p>
                 </span>
-            </div>
 
             <a href="#" class="section__btn-a">
-                <button type="button" class="conteudo__btn section__btn">Cadastrar</button>
+                <button type="button" id="btn-cadastrar" class="conteudo__btn section__btn">Cadastrar</button>
             </a>
 
         </form>
