@@ -6,6 +6,7 @@ section {
 
 .conteudo {
     width: 70%;
+    margin-top: 90px;
 }
 
 .conteudo__logo {
@@ -27,6 +28,10 @@ section {
     color: var(--branco);
 }
 
+.conteudo__texto::before {
+    content: "Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!";
+}
+
 .conteudo__texto {
     color: var(--branco);
     font-weight: 400;
@@ -45,4 +50,24 @@ section {
 .forma03 {
     position: relative;
     bottom: -13px;
+}
+
+@media screen and (min-width: 768px) {
+    .conteudo__logo img {
+        width: 251px;
+    }
+
+    .conteudo__titulo {
+        font-size: 1.8em;
+    }
+
+    .conteudo__texto::before {
+        content: "Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!";
+    }
+
+    .conteudo__texto {
+        font-size: 1.1em;
+        width: 344px;
+        margin: auto;
+    }
 }

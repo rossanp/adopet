@@ -28,3 +28,16 @@ a {
 .btn-1 {
     margin: 24px 0 16px 0;
 }
+
+@media screen and (min-width: 768px) {
+    .conteudo__btn {
+        margin: 0 0 16px 0;
+        font-size: 1.1em;
+        height: 48px;
+        width: 344px;
+    }
+
+    .btn-1 {
+        margin: 38px 0 16px 0;
+    }
+}
