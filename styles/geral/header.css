@@ -47,6 +47,10 @@ header {
         position: relative;
     }
 
+    .header__img-patas {
+        height: 374px;
+    }
+
     .forma01 {
         background: url("../../img/Forma-1-768.svg") no-repeat;
         height: 55%;
