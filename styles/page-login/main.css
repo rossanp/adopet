@@ -31,5 +31,14 @@
         margin-top: 16px;
         font-size: 1.1em;
     }
-    
+
+    .forma02-invertida {
+        display: none;
+    }
+
+    .forma02 {
+        position: absolute;
+        right: 0;
+        top: 268px;
+    }
 }

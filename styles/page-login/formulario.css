@@ -24,6 +24,7 @@ form div {
     width: 312px;
     height: 40px;
     margin-top: 4px;
+    padding-left: 15px;
 
     background-color: var(--cinza_inpt);
     box-shadow: var(--sombra_inpt);
@@ -47,11 +48,14 @@ form div {
     text-align: center;
 }
 
+.form__senha {
+    width: 100%;
+}
+
 span {
     position: absolute;
-    right: 34px;
-    margin-top: 42px;
     z-index: 1;
+    margin: 43px 0 0 285px;
 }
 
 .form__esqueci-senha {
