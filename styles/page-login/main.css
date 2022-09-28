@@ -10,7 +10,6 @@
     text-align: center;
 
     margin-top: 56.54px;
-    font-family: var(--text);
     font-weight: 400;
     font-size: 1em;
     line-height: 21px;
@@ -20,4 +19,17 @@
 .forma02-invertida {
     position: absolute;
     top: 368px;
+}
+
+@media screen and (min-width: 768px) {
+    .conteudo__logo img {
+        width: 251px;
+        margin: 75px 0 24px;
+    }
+    
+    .main__conteudo-texto {
+        margin-top: 16px;
+        font-size: 1.1em;
+    }
+    
 }
