@@ -1,3 +1,9 @@
+.conteudo {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
 .conteudo__logo {
     display: grid;
     justify-content: center;
@@ -20,4 +26,38 @@
 .forma02-invertida {
     position: absolute;
     top: 368px;
+}
+
+.forma02 {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .conteudo {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conteudo__logo img {
+        width: 251px;
+        margin: 75px 0 24px;
+    }
+
+    .main__conteudo-texto {
+        margin-top: 16px;
+        font-size: 1.1em;
+        width: 525px;
+    }
+
+    .forma02-invertida {
+        display: none;
+    }
+
+    .forma02 {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 268px;
+    }
 }
