@@ -47,11 +47,17 @@ form div {
     text-align: center;
 }
 
-.span {
+/* .span {
     position: absolute;
     right: 34px;
     margin-top: 42px;
     z-index: 1;
+} */
+
+span {
+    position: absolute;
+    z-index: 1;
+    margin: 43px 0 0 285px;
 }
 
 .section__btn-a {
