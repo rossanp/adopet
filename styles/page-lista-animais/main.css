@@ -1,5 +1,9 @@
+.conteudo {
+    display: grid;
+    justify-content: center;
+}
+
 .main__conteudo-texto {
-    font-family: var(--text);
     font-weight: 400;
     font-size: 1em;
     line-height: 20px;
@@ -15,7 +19,7 @@
 .main__card {
     background-color: var(--cinza_inpt);
     padding: 24px 0 19px 24px;
-    margin-bottom: 16px;
+    margin: 0 8px 16px;
 
     display: flex;
 }
@@ -25,7 +29,6 @@
 }
 
 .main__card-dados h2 {
-    font-family: var(--text);
     font-weight: 600;
     font-size: 1em;
     line-height: 20px;
@@ -34,8 +37,9 @@
     margin-bottom: 8px;
 }
 
-.main__card-idade, .main__card-tamanho, .main__card-jeito {
-    font-family: var(--text);
+.main__card-idade,
+.main__card-tamanho,
+.main__card-jeito {
     font-weight: 400;
     font-size: 0.9em;
     line-height: 20px;
@@ -43,7 +47,6 @@
 }
 
 .main__card-local {
-    font-family: var(--text);
     font-weight: 400;
     font-size: 0.7em;
     line-height: 16px;
@@ -54,11 +57,23 @@
 }
 
 .main__card-contato p {
-    font-family: var(--text);
     font-weight: 400;
     font-size: 0.6em;
     line-height: 16px;
     color: var(--cinza);
 
     margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    .main__conteudo-texto {
+        font-size: 1.1em;
+        margin: 130px 67px 32px;
+        justify-content: center;
+    }
+
+    .main__cards {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 }
