@@ -1,3 +1,9 @@
+.conteudo {
+    margin: 130px auto 0;
+    
+    max-width: 524px;
+}
+
 section {
     position: relative;
 }
@@ -91,4 +97,23 @@ section {
 
 .main__form-inpt-sobre::placeholder {
     position: absolute;
+}
+
+.forma02 {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .main__conteudo-texto {
+        font-size: 1.1em;
+        line-height: 26px;
+        margin: 0 0 40px;
+    }
+
+    .forma02 {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 100px;
+    }
 }
