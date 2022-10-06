@@ -1,10 +1,16 @@
-section {
+.conteudo {
+    margin: 0 auto;
+    
+    max-width: 524px;
+}
+
+/* section {
     position: relative;
 
     display: grid;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .conteudo {
     max-width: 524px;
@@ -87,6 +93,6 @@ section {
         display: block;
         position: absolute;
         right: 0;
-        top: 100px;
+        top: 268px;
     }
 }
