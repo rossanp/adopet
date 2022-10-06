@@ -68,6 +68,10 @@ section {
     position: absolute;
 }
 
+.forma02 {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .main__conteudo-texto {
         font-size: 1.1em;
@@ -77,5 +81,12 @@ section {
 
     .main__form {
         margin-bottom: 67px;
+    }
+
+    .forma02 {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 100px;
     }
 }
