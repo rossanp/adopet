@@ -8,6 +8,8 @@ a {
 }
 
 .conteudo__btn {
+    z-index: 1;
+    cursor: pointer;
     color: var(--branco);
     background-color: var(--coral);
     margin: 0 0 16px 0;

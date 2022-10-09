@@ -47,6 +47,10 @@ section {
     top: 199px;
 }
 
+.forma02-768 {
+    display: none;
+}
+
 .forma03 {
     position: relative;
     bottom: -13px;
@@ -69,6 +73,17 @@ section {
         font-size: 1.1em;
         width: 344px;
         margin: auto;
+    }
+
+    .forma02 {
+        display: none;
+    }
+
+    .forma02-768 {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 268px;
     }
 
     .forma03 {
