@@ -65,6 +65,10 @@
     margin-left: 8px;
 }
 
+.forma02 {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .main__conteudo-texto {
         font-size: 1.1em;
@@ -75,5 +79,19 @@
     .main__cards {
         display: grid;
         grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .main__cards {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .forma02 {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 268px;
     }
 }
