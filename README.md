@@ -15,7 +15,7 @@ O intuito do site é ter um local para adoção de pets. O usuário poderá cria
 Ao logar-se, ele terá uma lista de animais disponíveis para adoção incluindo os dados dos animais como nome, idade, tamanho, comportamento, localidade e uma foto. Também terá um local para enviar um e-mail para o responsável do animal.
 
 <h2>Desenvolvimento</h2>
-Este projeto foi desenvolvido em <strong>HTML5</strong>, <strong>CSS6</strong> e <strong>JavaScript</strong>.
+Este projeto foi desenvolvido em <strong>HTML5</strong>, <strong>CSS3</strong> e <strong>JavaScript</strong>.
 
 ![index html](https://github.com/rossanp/adopet/assets/53863541/78d3127e-b823-4da9-bda4-0f8ba06ae913)
 
